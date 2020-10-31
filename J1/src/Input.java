@@ -22,6 +22,6 @@ public class Input {
         return result;
     }
     public void surrenderInput(String result) {
-        if (result.equals("сдаюсь")) Game.EndGame();
+        if (result.equals("сдаюсь")) Game.EndGame(false);
     }
 }
